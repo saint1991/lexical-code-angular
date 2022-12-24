@@ -1,0 +1,30 @@
+/* You can add global styles to this file, and also import other style files */
+
+code {
+    span {
+        &.function {
+            color: blueviolet;
+        }
+    
+        &.brace {
+            color: cyan;
+        }
+    
+        &.arg {
+            color: greenyellow;
+        }
+    
+        &.comma {
+            color: white;
+        }
+
+        &.selected {
+            text-decoration: yellow underline solid;
+        }
+
+        &.error {
+            color: red;
+            text-decoration: red underline solid;
+        }
+    }
+}
